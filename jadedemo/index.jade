@@ -1,0 +1,7 @@
+extends layout
+block content
+    h1 this is a demo of jade, author is #{author}
+    h2 fruits:
+    ol
+        each val, key in fruits
+            li #{val}元 #{key}
